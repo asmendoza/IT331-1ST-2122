@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">IT331-1ST-2122</string>
+    <array name="genres">
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Jazz</item>
+        <item>Sufi</item>
+        <item>Bollywood</item>
+        <item>Hollywood</item>
+        <item>Pop Rock</item>
+    </array>
+    <string name="title_activity_view_artists">ViewArtistsActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>
