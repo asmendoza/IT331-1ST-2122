@@ -42,7 +42,8 @@ class MainActivity : AppCompatActivity() {
         //opening the activity to display all the artist
         //it will give error as we dont have this activity so remove this part for now to run the app
         btnViewArtists.setOnClickListener {
-            val intent = Intent(applicationContext, ViewArtistsActivity::class.java)
+            //val intent = Intent(applicationContext, ViewArtistsActivity::class.java)
+            val intent = Intent(applicationContext, GenerateQR::class.java)
             startActivity(intent)
         }
     }
